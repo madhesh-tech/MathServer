@@ -99,7 +99,7 @@ def power(request):
                 i = float(i)
                 r = float(r)
                 p = (i ** 2) * r
-                context['powerlamp'] = round(p, 2)  # Keep only calculated power
+                context['powerlamp'] = round(p, 2)  
             except ValueError:
                 context['powerlamp'] = "Invalid input"
 
